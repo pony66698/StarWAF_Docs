@@ -12,3 +12,4 @@
     "command": "yarn start:doc --locale en && yarn start:blog:en && yarn start:blog:zh && yarn start:website"
   }
 }
+
