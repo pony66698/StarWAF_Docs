@@ -1,0 +1,14 @@
+{
+  "build": {
+    "env": {
+      "preview": "true"
+    },
+    "command": "yarn build && yarn serve"
+  },
+  "install": {
+    "command": "yarn && yarn prepare-data"
+  },
+  "dev": {
+    "command": "yarn start:doc --locale en && yarn start:blog:en && yarn start:blog:zh && yarn start:website"
+  }
+}
