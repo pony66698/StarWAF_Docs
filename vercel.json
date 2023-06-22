@@ -1,15 +1,5 @@
 {
-  "build": {
-    "env": {
-      "preview": "true"
-    },
-    "command": "yarn build && yarn serve"
-  },
-  "install": {
-    "command": "yarn && yarn prepare-data"
-  },
-  "dev": {
-    "command": "yarn start:doc --locale en && yarn start:blog:en && yarn start:blog:zh && yarn start:website"
-  }
+  "buildCommand": "preview=true yarn build && yarn serve:website && yarn build:doc && yarn serve:doc && yarn build:blog:en && yarn serve:blog:en && yarn build:blog:zh && yarn serve:blog:zh",
+  "installCommand": "yarn && yarn prepare-data",
+  "devCommand": "yarn start:doc --locale en && yarn start:blog:en && yarn start:blog:zh && yarn start:website"
 }
-
