@@ -1,5 +1,0 @@
-{
-  "buildCommand": "preview=true yarn build && yarn serve:website && yarn build:doc && yarn serve:doc && yarn build:blog:en && yarn serve:blog:en && yarn build:blog:zh && yarn serve:blog:zh",
-  "installCommand": "yarn",
-  "devCommand": "yarn start:doc --locale en && yarn start:blog:en && yarn start:blog:zh && yarn start:website"
-}

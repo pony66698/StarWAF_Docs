@@ -1,54 +1,24 @@
-# dependencies
-node_modules
+# Dependencies
+/node_modules
 
-lib/core/metadata.js
-lib/core/MetadataBlog.js
+# Production
+/build
 
-# production
-/**/*/translated_docs
-/**/*/build/
-/**/*/node_modules
+/docs/api
 
-# generated files
-/**/*/.docusaurus
-/**/*/.cache-loader
-/blog/zh/src
-/blog/zh/static
-/blog/zh/i18n
-/blog/en/src
-/blog/en/static
-/blog/en/config/picked-posts-info.js
-/blog/zh/config/picked-posts-info.js
+# Generated files
+.docusaurus
+.cache-loader
+.firebase
 
-# misc
+# Misc
 .DS_Store
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
-.idea
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.vscode
-tmp/*
-
-# Local Netlify folder
-.netlify
-
-scripts/yarn.lock
-/.eslintcache
-/.stylelintcache
-
-/doc/docs/*
-/doc/docs-apisix*/**
-/doc/docs-apisix*.json
-
-/doc/i18n/zh/docusaurus-plugin-content-docs-docs-*/**
-scripts/temp/**
-/config/repos-info.json
-/website/src/pages/edit.*
-/website/src/css/edit.*
-/blog/src/theme/Footer/
-website/src/theme/Footer/event-poster-card.json
+/.yarn/cache/
