@@ -1,0 +1,3 @@
+tasks:
+  - init: cd Website
+    command: cd Website && yarn install
