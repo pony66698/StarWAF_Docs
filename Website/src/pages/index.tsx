@@ -47,7 +47,7 @@ function HomepageHeader() {
         >
           了解更多
         </Link>
-        
+
         <a
           className={clsx(
             "button button--primary button--lg",
@@ -80,9 +80,7 @@ function HomepageHeader() {
           target="_blank"
         >
           <img
-            src={`https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=319078&theme=${
-              isDarkTheme ? "dark" : "light"
-            }`}
+            src={`https://stats.deeptrain.net/repo/Sh1n3zZ/StarWAF_Docs`}
             alt="Notes for digital support services T-Level"
             style={{ width: 250, height: 54 }}
             width="250"
