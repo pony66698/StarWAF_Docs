@@ -46,7 +46,7 @@ const config = {
      announcementBar: {
        id: 'beta', // Any value that will identify this message.
        content:
-         '🎉 We are developing a platform called <strong>Sivu</strong>! <a target="_blank" rel="noopener noreferrer" href="https://dsn.releasenotes.io/release/ZjkGD-were-developing-a-platform-called-sivu">Read more</a>',
+         '⭐️ 同时你也可以前往 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Sh1n3zZ/LeSunCloud_Docs">GitHub</a> 给咱来一个 Star 噢 ヾ⁠(⁠･⁠ω⁠･⁠*⁠)⁠ﾉ',
        backgroundColor: '#fafbfc', // Defaults to `#fff`.
        textColor: '#091E42', // Defaults to `#000`.
        isCloseable: true, // Defaults to `true`.
@@ -146,14 +146,7 @@ const config = {
           ],
         },
       ],
-    logo: {
-      alt: 'Powered by Vercel',
-      src: 'powered-by-vercel.svg',
-      width: 160,
-      height: 51,
-      href: 'https://vercel.com/?utm_source=digital-support-notes&utm_campaign=oss',
-    },
-    copyright: ` Copyright © Coded with ❤️ by <a href="https://nayanpatel.net">Nayan Patel </a> & <a href="https://github.com/PatelN123/Digital-Support-Notes">the community</a></a>`,
+    copyright: ` Copyright © Coded with ❤️ by <a href="https://lightxi.com">LightXi </a> & <a href="https://github.com/PatelN123/Digital-Support-Notes">the community</a></a>`,
   },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
