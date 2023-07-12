@@ -53,9 +53,9 @@ const config = {
      },
      metadata: [{name: 'Digital Support Services T-Level Textbook', content: 'notes, docs, textbook, alternative, learn'}],
     navbar: {
-      title: 'Star WAF',
+      title: 'StarWAF',
       logo: {
-        alt: 'Star WAF',
+        alt: 'StarWAF',
         src: 'img/logonobg.png',
         href: '/',
         width: 32,
