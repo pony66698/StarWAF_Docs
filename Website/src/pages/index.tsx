@@ -53,6 +53,17 @@ function HomepageHeader() {
             "button button--secondary button--lg",
             styles.heroButton
           )}
+          href="/docs/"
+          target="_blank"
+        >
+          了解更多
+        </a>
+
+        <a
+          className={clsx(
+            "button button--secondary button--lg",
+            styles.heroButton
+          )}
           href="https://github.com/pateln123/Digital-Support-Notes"
           target="_blank"
         >
