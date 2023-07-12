@@ -76,12 +76,12 @@ function HomepageHeader() {
         <br />
         <span>
 {         <a
-          href="https://www.producthunt.com/posts/digital-support-notes"
+          href="https://github.com/Sh1n3zZ/StarWAF_Docs"
           target="_blank"
         >
           <img
             src={`https://stats.deeptrain.net/repo/Sh1n3zZ/StarWAF_Docs`}
-            alt="Notes for digital support services T-Level"
+            alt="前往 GitHub 以了解该项目"
             data-aos="zoom-y-out" data-aos-delay="300"
           />
         </a> }
@@ -96,19 +96,19 @@ function FeaturesSection() {
     {
       title: "Simple",
       description:
-        "These notes are simple and easy to understand for everyone, even contributing is super easy!",
+        "简单，易配置，文档齐全；仅需轻点几下即可加速你的网上应用程式，即使没有使用基础也能轻松配置。",
       icon: <HiOutlineLightBulb fontSize={30} />,
     },
     {
-      title: "Detailed",
+      title: "Support",
       description:
-        "All notes here are detailed and constantly being updated by contributors.",
+        "7*24小时全时技术支持，为每一位客户提供快速响应和全天候监控，确保服务质量。",
       icon: <BiMessageSquareDetail fontSize={30} />,
     },
     {
-      title: "Modern",
+      title: "Smart",
       description:
-        "A simplistic modern design, making the site easy to understand and to contribute to.",
+        "动态内容加速，采用多种连接算法，提供 WebSocket 双向或实时连接的更好途径。",
       icon: <BiPaint fontSize={30} />,
     },
   ];
