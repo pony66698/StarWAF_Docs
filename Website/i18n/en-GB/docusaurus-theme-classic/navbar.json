@@ -1,10 +1,10 @@
 {
   "title": {
-    "message": "Digital Support Services Notes",
+    "message": "Star WAF",
     "description": "The title in the navbar"
   },
   "item.label.Notes": {
-    "message": "Notes",
+    "message": "Docs",
     "description": "Navbar item with label Notes"
   }
 }

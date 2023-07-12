@@ -53,9 +53,9 @@ const config = {
      },
      metadata: [{name: 'Digital Support Services T-Level Textbook', content: 'notes, docs, textbook, alternative, learn'}],
     navbar: {
-      title: 'StarWAF',
+      title: 'Star WAF',
       logo: {
-        alt: 'StarWAF',
+        alt: 'Star WAF',
         src: 'img/logonobg.png',
         href: '/',
         width: 32,
@@ -146,7 +146,7 @@ const config = {
           ],
         },
       ],
-    copyright: ` Copyright © Coded with ❤️ by <a href="https://lightxi.com">LightXi </a> & <a href="https://github.com/PatelN123/Digital-Support-Notes">the community</a></a>`,
+    copyright: ` Copyright © Coded with ❤️ by <a href="https://lightxi.com">LightXi</a> & <a href="https://github.com/PatelN123/Digital-Support-Notes">the community</a></a>`,
   },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
