@@ -82,9 +82,6 @@ function HomepageHeader() {
           <img
             src={`https://stats.deeptrain.net/repo/Sh1n3zZ/StarWAF_Docs`}
             alt="Notes for digital support services T-Level"
-            style={{ width: 250, height: 54 }}
-            width="250"
-            height="54"
             data-aos="zoom-y-out" data-aos-delay="300"
           />
         </a> }
