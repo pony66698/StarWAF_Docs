@@ -153,7 +153,7 @@ const config = {
 
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          editUrl: "https://github.com/PatelN123/Digital-Support-Notes/edit/main/Website/",
+          editUrl: "https://github.com/Sh1n3zZ/StarWAF_Docs/edit/main/Website/",
           beforeDefaultRemarkPlugins: [
             pageRef,
         ],
