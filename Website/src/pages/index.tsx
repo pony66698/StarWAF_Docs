@@ -27,7 +27,7 @@ function HomepageHeader() {
     <header className={clsx("hero animate__pulse", styles.heroBanner)}>
       <div className="container">
           <h1 className={(styles.heroTitle)} data-aos="zoom-y-out">
-          专为中国大陆用户定制的网站应用级入侵防御系统{" "}
+          专为中国大陆用户定制的网站应用级入侵防御/加速系统{" "}
           <span className={clsx("gradienttitle")} style={{ color: "var(--ifm-color-primary);" }}>
             Star WAF
           </span>{""}
@@ -37,16 +37,6 @@ function HomepageHeader() {
           针对 <strong>中国大陆环境进行链路优化</strong> 采用大量边缘 CDN 和 CN2 GIA 高速链路保证节点与中国的高性能链接 .
         </p>
         <span data-aos="zoom-y-out" data-aos-delay="300">
-        
-        <Link
-          className={clsx(
-            "button button--secondary button--lg",
-            styles.heroButton
-          )}
-          to="/docs/"
-        >
-          了解更多
-        </Link>
 
         <a
           className={clsx(
@@ -60,16 +50,16 @@ function HomepageHeader() {
         立即接入 <span className="buttonIcon"><svg className="arrowhome" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" font-size="0.8em" aria-hidden="true" focusable="false" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg></span>
         </a>
 
-        <a
+        <Link
           className={clsx(
             "button button--secondary button--lg",
             styles.heroButton
           )}
-          href="https://github.com/pateln123/Digital-Support-Notes"
-          target="_blank"
+          to="/docs/"
         >
-          <span className="buttonIcon"><svg className="githubhome" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1" viewBox="0 0 32 32" aria-hidden="true" focusable="false" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path d="M16 5.343c-6.196 0-11.219 5.023-11.219 11.219 0 4.957 3.214 9.162 7.673 10.645 0.561 0.103 0.766-0.244 0.766-0.54 0-0.267-0.010-1.152-0.016-2.088-3.12 0.678-3.779-1.323-3.779-1.323-0.511-1.296-1.246-1.641-1.246-1.641-1.020-0.696 0.077-0.682 0.077-0.682 1.126 0.078 1.72 1.156 1.72 1.156 1.001 1.715 2.627 1.219 3.265 0.931 0.102-0.723 0.392-1.219 0.712-1.498-2.49-0.283-5.11-1.246-5.11-5.545 0-1.226 0.438-2.225 1.154-3.011-0.114-0.285-0.501-1.426 0.111-2.97 0 0 0.941-0.301 3.085 1.15 0.894-0.25 1.854-0.373 2.807-0.377 0.953 0.004 1.913 0.129 2.809 0.379 2.14-1.453 3.083-1.15 3.083-1.15 0.613 1.545 0.227 2.685 0.112 2.969 0.719 0.785 1.153 1.785 1.153 3.011 0 4.31-2.624 5.259-5.123 5.537 0.404 0.348 0.761 1.030 0.761 2.076 0 1.5-0.015 2.709-0.015 3.079 0 0.299 0.204 0.648 0.772 0.538 4.455-1.486 7.666-5.69 7.666-10.645 0-6.195-5.023-11.219-11.219-11.219z"></path></svg></span> GitHub
-        </a>
+          了解更多
+        </Link>
+        
         </span>
 
 {         <br /> }

@@ -46,7 +46,7 @@ const config = {
      announcementBar: {
        id: 'beta', // Any value that will identify this message.
        content:
-         '⭐️ 同时你也可以前往 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Sh1n3zZ/LeSunCloud_Docs">GitHub</a> 给咱来一个 Star 噢 ヾ⁠(⁠･⁠ω⁠･⁠*⁠)⁠ﾉ',
+         '✨ 初来乍到？你可以先行 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Sh1n3zZ/LeSunCloud_Docs">阅读文档</a> 了解一下 ヾ⁠(⁠･⁠ω⁠･⁠*⁠)⁠ﾉ',
        backgroundColor: '#fafbfc', // Defaults to `#fff`.
        textColor: '#091E42', // Defaults to `#000`.
        isCloseable: true, // Defaults to `true`.
@@ -113,35 +113,22 @@ const config = {
           title: 'Sites',
           items: [
             {
-              label: 'Notes',
-              to: 'docs',
+              label: 'Github',
+              href: 'https://github.com/Sh1n3zZ/LeSunCloud_Docs',
             },
             {
-              label: 'Analytics',
-              href: 'https://analytics.notes.nayanpatel.net/share/NmRzIAly/Digital%20Support%20Notes',
-            },
-            {
-              label: 'Main Site',
-              href: 'https://nayanpatel.net',
+              label: 'Console',
+              href: 'https://app.nuee.cn/',
             },
             
           ],
         },
         {
-          title: 'Sponsors',
+          title: 'Status',
           items: [
             {
-              label: 'Sponsors',
-              to: 'sponsors',
-            },
-          ],
-        },
-        {
-          title: 'Code of Conduct',
-          items: [
-            {
-              label: 'Code of Conduct',
-              href: 'https://github.com/PatelN123/Digital-Support-Notes/blob/main/CODE_OF_CONDUCT.md',
+              label: 'Status of Agnet',
+              href: 'https://agent.nuee.cn/',
             },
           ],
         },
