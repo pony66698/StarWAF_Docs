@@ -15,7 +15,7 @@ const config = {
     defaultLocale: 'en-GB',
     locales: ['en-GB']
   },
-  title: 'Digital Support Services T-Level Notes',
+  title: 'Star WAF',
   tagline: 'An awesome textbook alternative, that you can contribute to!',
   url: 'https://starwaf.com',
   baseUrl: '/',
@@ -46,7 +46,7 @@ const config = {
      announcementBar: {
        id: 'beta', // Any value that will identify this message.
        content:
-         '✨ 初来乍到？你可以先行 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Sh1n3zZ/LeSunCloud_Docs">阅读文档</a> 了解一下 ヾ⁠(⁠･⁠ω⁠･⁠*⁠)⁠ﾉ',
+         '✨ 初来乍到？你可以先行 <a target="_blank" rel="noopener noreferrer" href="/docs">阅读文档</a> 了解一下 ヾ⁠(⁠･⁠ω⁠･⁠*⁠)⁠ﾉ',
        backgroundColor: '#fafbfc', // Defaults to `#fff`.
        textColor: '#091E42', // Defaults to `#000`.
        isCloseable: true, // Defaults to `true`.
@@ -68,19 +68,19 @@ const config = {
           position: 'left',
         },
         {
-          label: '联系我们',
+          label: '关于我们',
           position: 'left',
           items: [
             {
-              label: 'Backdrop Icons',
+              label: '关于我们',
               to: 'backdropicons',
             },
             {
-              label: 'Analytics',
+              label: '联系我们',
               to: 'https://analytics.notes.nayanpatel.net/share/NmRzIAly/Digital%20Support%20Notes',
             },
             {
-              label: '🚧 More comming soon!',
+              label: '🚧 更多内容正在施工',
               to: '#',
               className: 'denied',
             },
