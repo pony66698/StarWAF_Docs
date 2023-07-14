@@ -93,15 +93,9 @@ const config = {
           className: 'feature-req',
         },
         {
-          href: 'https://github.com/Nayan-Web/Digital-Support-Notes',
+          href: 'https://github.com/Sh1n3zZ/StarWAF_Docs',
           position: 'right',
           className: 'header-github-link',
-          'aria-label': 'GitHub repository',
-        },
-        {
-          href: 'https://www.producthunt.com/posts/digital-support-notes',
-          position: 'right',
-          className: 'header-prod-link',
           'aria-label': 'GitHub repository',
         },
       ],

@@ -64,18 +64,6 @@ function HomepageHeader() {
 
 {         <br /> }
         <br />
-        <span>
-{         <a
-          href="https://github.com/Sh1n3zZ/StarWAF_Docs"
-          target="_blank"
-        >
-          <img
-            src={`https://stats.deeptrain.net/repo/Sh1n3zZ/StarWAF_Docs`}
-            alt="前往 GitHub 以了解该项目"
-            data-aos="zoom-y-out" data-aos-delay="300"
-          />
-        </a> }
-      </span>
       </div>
     </header>
   );
