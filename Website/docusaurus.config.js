@@ -68,7 +68,7 @@ const config = {
           position: 'left',
         },
         {
-          label: 'Tools',
+          label: '联系我们',
           position: 'left',
           items: [
             {
@@ -87,8 +87,8 @@ const config = {
           ],
         },
         {
-          to: '/feature-requests',
-          label: 'Feature Request →',
+          to: '/help-widget',
+          label: '遇到问题？ →',
           position: 'left',
           className: 'feature-req',
         },

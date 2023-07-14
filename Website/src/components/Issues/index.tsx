@@ -14,17 +14,17 @@ import clsx from 'clsx';
 
 const Playgrounds = [
   {
-    name: <><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="icon-inline" /> GitHub</>,
-    url: 'https://github.com/PatelN123/Digital-Support-Notes/issues/new/choose',
+    name: <><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="icon-inline" /> 查阅文档</>,
+    url: '/docs',
     description: (
-        "Report a website issue here!"
+        "尝试通过查阅文档解决问题"
     ),
   },
   {
-    name: <><img src="https://www.zoho.com/flow/assets/app_logos/canny_logo.jpeg" class="icon-inline" />Canny</>,
+    name: <><img src="https://www.zoho.com/flow/assets/app_logos/canny_logo.jpeg" class="icon-inline" />联系我们</>,
     url: 'https://notes.nayanpatel.net/feature-requests/',
     description: (
-        "Have a feature that you'd like to see? Submit it here!"
+        "查阅文档无法解决问题？对我们有更好的建议？联系我们！"
     ),
   },
 ];

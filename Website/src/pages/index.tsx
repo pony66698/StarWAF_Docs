@@ -27,7 +27,7 @@ function HomepageHeader() {
     <header className={clsx("hero animate__pulse", styles.heroBanner)}>
       <div className="container">
           <h1 className={(styles.heroTitle)} data-aos="zoom-y-out">
-          专为中国大陆用户定制的网站应用级入侵防御/加速系统{" "}
+          专为中国大陆用户定制的网站应用级入侵防御 / 加速系统{" "}
           <span className={clsx("gradienttitle")} style={{ color: "var(--ifm-color-primary);" }}>
             Star WAF
           </span>{""}
