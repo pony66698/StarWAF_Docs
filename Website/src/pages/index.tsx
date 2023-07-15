@@ -43,7 +43,7 @@ function HomepageHeader() {
             "button button--primary button--lg",
             styles.heroButton
           )}
-          href="/docs/"
+          href="https://app.nuee.cn/"
           target="_blank"
           style={{ marginRight: 10 }}
         >
