@@ -114,6 +114,10 @@ const config = {
               label: 'Console',
               href: 'https://app.nuee.cn/',
             },
+            {
+              label: '论坛',
+              href: 'https://bbs.starwaf.com/',
+            },
             
           ],
         },
