@@ -68,6 +68,11 @@ const config = {
           position: 'left',
         },
         {
+          to: 'https://bbs.starwaf.com/',
+          label: '论坛',
+          position: 'left',
+        },
+        {
           label: '关于我们',
           position: 'left',
           items: [
