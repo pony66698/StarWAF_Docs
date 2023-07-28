@@ -123,6 +123,10 @@ const config = {
               label: 'Forum',
               href: 'https://bbs.starwaf.com/',
             },
+            {
+              label: 'Cooperate',
+              href: 'https://sale.nuee.cn/',
+            },
             
           ],
         },
